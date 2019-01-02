@@ -180,7 +180,7 @@ func sendTransaction(res http.ResponseWriter, req *http.Request, _ httprouter.Pa
 		},
 		transactionFee, // fee
 		0, // unlock time
-		3, // mixin
+		6, // mixin
 		extra,
 		paymentID,
 		"", // change address
