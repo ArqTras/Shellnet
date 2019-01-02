@@ -1,6 +1,8 @@
-# Shellnet
+# ArQmA Network & Shellnet
 
-![screenshot](/docs/screenshot-shellnet-login.png)
+#Copyright (c) 2019 The ArQmA Project.
+#Copyright (c) 2018 The SHELLNET.
+
 
 ## Setup on Ubuntu 16.04+
 Install the required packages.  
@@ -27,7 +29,7 @@ Setup user database
 Setup transactions database  
 `~$ cat transaction_db.sql | psql -U <username> -h <host>`
 
-#### Setup Turtlecoin service
+#### Setup ArQmA or Turtlecoin service
 Run this once.
 `~$ ./turtle-service --container-file <container name> -p <password> -g`  
 
