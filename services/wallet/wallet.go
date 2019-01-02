@@ -24,10 +24,10 @@ var (
 	walletDB          *sql.DB
 )
 
-// Forking config.
-var addressFormat = "^TRTL([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})$"
-var divisor float64 = 100 // This is 100 for TRTL
-var transactionFee = 10 // This is 10 for TRTL
+// Forking config. Format address to check
+var addressFormat = "^ar([a-zA-Z0-9]{97}|[a-zA-Z0-9]{109})$"
+var divisor float64 = 1000000000 // This is 100 for TRTL
+var transactionFee =  	1000000 // This is 10 for TRTL
 
 func init() {
 	var err error
